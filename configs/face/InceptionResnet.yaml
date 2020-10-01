@@ -1,0 +1,28 @@
+num_classes: 10575
+epochs: 50
+grad_clip: 5.0
+log_frequency: 100
+
+model:
+  name: InceptionResnetV1
+  num_classes: $num_classes
+  # pretrained: casia-webface
+
+criterion:
+  name: CrossEntropyLoss
+
+optimizer:
+  name: SGD
+  lr: 0.05
+  weight_decay: 5.e-4
+  momentum: 0.9
+
+scheduler:
+  name: MultiStepLR
+  milestones: [30, 40]
+  gamma: 0.1
+
+dataset:
+  name: DatasetGenerator
+  train_batch_size: 96
+  eval_batch_size: 128
