@@ -5,7 +5,7 @@
 In the notebook, you can find the minimal implementation for generating sample-wise unlearnable examples on CIFAR-10.
 
 ## Experiments in the paper.
-Check scripts folder for *.sh files for each script used for corresponding experiments.
+Check scripts folder for *.sh for each corresponding experiments.
 
 ## Sample-wise noise for unlearnable example on CIFAR-10
 ##### Generate noise for unlearnable examples
