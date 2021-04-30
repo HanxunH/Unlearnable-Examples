@@ -28,7 +28,7 @@ design:
 </div>
 
 <!-- Header image -->
-![](https://github.com/HanxunH/Unlearnable-Examples/blob/gh-pages-source/content/publication/conference-paper/featured.jpg?raw=true)
+![](/Unlearnable-Examples/publication/conference-paper/header.jpg)
 
 ### Abstract
 The volume of "free" data on the internet has been key to the current success of deep learning. However, it also raises privacy concerns about the unauthorized exploitation of personal data for training commercial models. It is thus crucial to develop methods to prevent unauthorized data exploitation. This paper raises the question: can data be made unlearnable for deep learning models? We present a type of error-minimizing noise that can indeed make training examples unlearnable. Error-minimizing noise is intentionally generated to reduce the error of one or more of the training example(s) close to zero, which can trick the model into believing there is "nothing" to learn from these example(s). The noise is restricted to be imperceptible to human eyes, and thus does not affect normal data utility. We empirically verify the effectiveness of error-minimizing noise in both sample-wise and class-wise forms. We also demonstrate its flexibility under extensive experimental settings and practicability in a case study of face recognition. Our work establishes an important ﬁrst step towards making personal data unexploitable to deep learning models.
