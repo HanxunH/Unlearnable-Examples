@@ -64,3 +64,15 @@ python3 -u main.py    --version                 resnet18                       \
                       --perturb_tensor_filepath path/to/your/experiment/folder/perturbation.pt \
                       --train
 ```
+
+
+---
+## Cite Our Work
+```
+@inproceedings{huang2021unlearnable,
+    title={Unlearnable Examples: Making Personal Data Unexploitable},
+    author={Hanxun Huang and Xingjun Ma and Sarah Monazam Erfani and James Bailey and Yisen Wang},
+    booktitle={ICLR},
+    year={2021}
+}
+```
