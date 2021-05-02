@@ -7,7 +7,7 @@ The volume of "free" data on the internet has been key to the current success of
 
 ---
 #### What are Unlearnable Examples?
-*AI is supposed to learn from its own mistakes (errors).  But what happens if there are no mistakes or it is too easy to learn, will learning stop?
+*AI is supposed to learn from its own mistakes (errors).  But what happens if there are no mistakes or it is too easy to learn, will learning stop?*
 
 *Unlearnable examples* exploits the above aspect of AI and tricks the model to believe *there is nothing to learn*.
 
