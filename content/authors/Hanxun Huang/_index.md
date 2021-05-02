@@ -1,12 +1,12 @@
 ---
-title: Hanxun (Curtis) Huang 
+title: Hanxun (Curtis) Huang
 
 authors:
 - Hanxun (Curtis) Huang
 
 superuser: true
 
-role: PhD student in the University of Melbourne
+role: PhD Student
 
 organizations:
 - name: University of Melbourne

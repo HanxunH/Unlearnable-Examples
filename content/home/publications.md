@@ -12,10 +12,10 @@ design:
 
 <div class="article-metadata">
   <div>
-    <span><a href="https://hanxunh.github.io/">Hanxun Huang</a></span>, 
-    <span><a href="http://xingjunma.com/">Xingjun Ma</a></span>, 
-    <span><a href="https://people.eng.unimelb.edu.au/smonazam/">Sarah Monazam Erfani</a></span>, 
-    <span><a href="https://people.eng.unimelb.edu.au/baileyj/">James Bailey</a></span>, 
+    <span><a href="https://hanxunh.github.io/">Hanxun Huang</a></span>,
+    <span><a href="http://xingjunma.com/">Xingjun Ma</a></span>,
+    <span><a href="https://people.eng.unimelb.edu.au/smonazam/">Sarah Monazam Erfani</a></span>,
+    <span><a href="https://people.eng.unimelb.edu.au/baileyj/">James Bailey</a></span>,
     <span><a href="https://yisenwang.github.io/">Yisen Wang</a></span>
   </div>
   <span class="article-date">May 2021</span>

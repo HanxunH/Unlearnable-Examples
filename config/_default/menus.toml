@@ -7,3 +7,13 @@
 #   name = "Home"
 #   url = ""
 #   weight = 10
+
+[[main]]
+  name = "Download Paper"
+  url = "https://openreview.net/pdf?id=iAmZUo0DxC0"
+  weight = 10
+
+[[main]]
+  name = "GitHub Code"
+  url = "https://github.com/HanxunH/Unlearnable-Examples"
+  weight = 20
