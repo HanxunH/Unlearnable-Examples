@@ -19,7 +19,7 @@ In this research, we present a type of *error-minimizing (unlearnable) noise* th
 
 
 #### Difference to adversarial examples?
-Unlearnable examples protect your data from contributing to the training of any models, while adversarial examples can protect you from being recognized by a model (the model learns the version A of your data, while adversarial examples are version B) .
+Adversarial examples can protect you from being recognized by a model (the model learns the version A of your data, while adversarial examples are version B), while unlearnable examples protect your data from contributing to any model training (version ??? of your data).
 
 #### How they can protect your data?
 Before you release your data to the wild, add an imperceptible noise to the data to create unlearnable data.
