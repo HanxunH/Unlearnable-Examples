@@ -15,7 +15,7 @@ The volume of "free" data on the internet has been key to the current success of
 
 *Unlearnable examples* exploits the above aspect of AI and tricks the model to believe *there is nothing to learn*.
 
-*Unlearnable examples* are training examples unusable for Deep Neural Networks (DNNs): DNNs trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test examples.
+Deep Neural Networks (DNNs) trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test examples.
 
 <img src="images/CIFAR-10-fig1.png" alt="drawing" width="500"/>
 
