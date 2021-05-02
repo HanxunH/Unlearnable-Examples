@@ -148,3 +148,11 @@ $y-medium: 1.0rem;
         @extend %link-dark;
     }
 }
+.navbar {
+  display: block;
+  text-align: center;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.8rem;
+}

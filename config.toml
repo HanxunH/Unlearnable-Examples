@@ -1,6 +1,6 @@
 languageCode = "en-us"
 baseURL = "https://hanxunh.github.io/Unlearnable-Examples/"
-title = "Unlearnable Examples"
+title = "Unlearnable Examples: Making Personal Data Unexploitable"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
