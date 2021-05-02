@@ -13,9 +13,7 @@ In this research, we present a type of *error-minimizing (unlearnable) noise* th
 #### What are Unlearnable Examples?
 *AI is supposed to learn from its own mistakes (errors).  But what happens if there are no mistakes or it is too easy to learn, will learning stop?*
 
-*Unlearnable examples* exploits the above aspect of AI and tricks the model to believe *there is nothing to learn*.
-
-Deep Neural Networks (DNNs) trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test examples.
+*Unlearnable examples* exploits the above aspect of AI and tricks the model to believe *there is nothing to learn*. Deep Neural Networks (DNNs) trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test examples.
 
 <img src="images/CIFAR-10-fig1.png" alt="drawing" width="500"/>
 
