@@ -1,4 +1,5 @@
 languageCode = "en-us"
+baseURL = "https://hanxunh.github.io/Unlearnable-Examples/"
 title = "Unlearnable Examples"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
