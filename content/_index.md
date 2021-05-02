@@ -6,16 +6,19 @@ title = "Unlearnable Examples: Making Personal Data Unexploitable"
 The volume of "free" data on the internet has been key to the current success of deep learning. However, it also raises privacy concerns about the unauthorized exploitation of personal data for training commercial models. It is thus crucial to develop methods to prevent unauthorized data exploitation.
 We present a type of *error-minimizing noise* that can make training examples unlearnable to deep learning.
 
-
+---
 #### What are Unlearnable Examples?
+Our work raises an intriguing question for machine learning and AI: AI is supposed to learn from its own mistakes (errors).  But what happens if there are no mistakes or it is too easy to learn, will learning stop?
 *Unlearnable examples* are training examples unusable for Deep Neural Networks (DNNs).
 DNNs trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test
 examples.
+<img src="images/CIFAR-10-fig1.png" alt="drawing" width="500"/>
+
 
 
 #### How they can protect your data?
 Before you release your data to the wild, add an imperceptible noise to the data to create unlearnable data.
-
+<img src="images/exp_face.png" alt="drawing" width="500"/>
 
 ---
 ## Examples on CIFAR-10
@@ -32,7 +35,7 @@ From left to right: Original Images, Visualization of the Error-Minimizing Noise
 ![](images/poster.jpg)
 
 ---
-## Team Members
+## Researchers
 * [Hanxun Huang](https://hanxunh.github.io/) The University of Melbourne
 * [Xingjun Ma](http://xingjunma.com/) Deakin University
 * [Sarah Erfani](https://people.eng.unimelb.edu.au/smonazam/) The University of Melbourne
