@@ -2,7 +2,7 @@
 title = "Unlearnable Examples: Making Personal Data Unexploitable"
 +++
 
-## Introduction
+## Why is it important to make our data unlearnable?
 The volume of "free" data on the internet has been key to the current success of deep learning. However, it also raises privacy concerns about the unauthorized exploitation of personal data for training commercial models. We believe it's crucial to develop methods to prevent unauthorized data exploitation. In this research, we present a type of *error-minimizing noise* that can make training examples unlearnable to deep learning.
 
 ---
