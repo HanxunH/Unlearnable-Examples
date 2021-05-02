@@ -1,9 +1,11 @@
-__pycache__
-*.pyc
+# IDEs
+.idea/
+.vscode/
+
+# OS
 .DS_Store
-.ipynb_checkpoints
-experiments/
-test_exp/
-pretrained_checkpoints/
-exp_results.json
-plots/
+
+# Hugo
+/resources/
+public/
+assets/jsconfig.json
