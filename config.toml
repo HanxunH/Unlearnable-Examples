@@ -1,0 +1,39 @@
+languageCode = "en-us"
+title = "Unlearnable Examples"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false          # enable KaTeX (https://katex.org/) globally
+googleAnalytics = ""  # add your tracking id
+
+[params]
+  author = "Hanxun Huang"
+  description = "A simple monospaced resume theme for Hugo."
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = "Hanxun Huang"
+    url = "http://hanxunh.github.io/"
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Microsoft YaHei"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+
+[menu]
+  # [[menu.main]]
+  #   name = "About"
+  #   url = "/about"
+  #   weight = 1
+  [[menu.main]]
+    name = "Download Paper"
+    url = "https://openreview.net/pdf?id=iAmZUo0DxC0"
+    weight = 2
+  [[menu.main]]
+    name = "Code"
+    url = "https://github.com/HanxunH/Unlearnable-Examples"
+    weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files
