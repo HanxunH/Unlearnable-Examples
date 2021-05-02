@@ -2,7 +2,7 @@
 title = "Unlearnable Examples: Making Personal Data Unexploitable"
 +++
 
-## We need more control of how our data is used!
+## We need more control of how our data is used.
 
 The volume of "free" data on the internet has been key to the current success of deep learning. However, it also raises privacy concerns about the unauthorized exploitation of personal data for training commercial models. We believe it's crucial to develop methods to prevent unauthorized data exploitation. In this research, we present a type of *error-minimizing (unlearnable) noise* that can make training examples unlearnable to deep learning.
 
