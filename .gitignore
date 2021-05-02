@@ -1,11 +1,9 @@
-# IDEs
-.idea/
-.vscode/
-
-# OS
+__pycache__
+*.pyc
 .DS_Store
-
-# Hugo
-/resources/
-public/
-assets/jsconfig.json
+.ipynb_checkpoints
+experiments/
+test_exp/
+pretrained_checkpoints/
+exp_results.json
+plots/
