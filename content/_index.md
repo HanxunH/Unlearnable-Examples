@@ -16,9 +16,12 @@ In this research, we present a type of *error-minimizing (unlearnable) noise* th
 *Unlearnable examples* exploits the above aspect of AI and tricks the model to believe *there is nothing to learn*. Deep Neural Networks (DNNs) trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test examples.
 
 <table><tr>
-<td><img src="images/fig1_classwise.jpg" width="375"/></td>
-<td><img src="images/fig1_samplewise.jpg" width="375"/></td>
+<td style="border:none"><img src="images/fig1_classwise.jpg" width="375"/></td>
+<td style="border:none"><img src="images/fig1_samplewise.jpg" width="375"/></td>
 </tr></table>
+
+
+
 The unlearnable effectiveness of different types of noise: random, adversarial (error-maximizing) and our proposed error-minimizing noise on CIFAR-10 dataset. The lower the clean test accuracy the more effective of the noise.
 
 
