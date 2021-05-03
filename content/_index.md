@@ -22,7 +22,7 @@ In this research, we present a type of *error-minimizing (unlearnable) noise* th
 Adversarial examples can protect you from being recognized by a well-trained model (the model learns the version A of your data, while adversarial examples are version B), while unlearnable examples protect your data from contributing to any model training (version ??? of the data).
 
 #### How to use unlearnable noise to protect your data?
-Before you release your data to the wild, add an imperceptible noise to the data to create unlearnable data. We need to pre-generate the noise based on a pulich dataset, based on image categories (classes). Then you can choose the category-sepecific noise to add to your image according to its category. The noise can also be generated for each image indivisually (sample-wise noise).
+Before you release your data to the wild, add an imperceptible noise to the data to create unlearnable data. We need to pre-generate the noise based on a public dataset, based on image categories (classes). Then you can choose the category-specific noise to add to your image according to its category. The noise can also be generated for each image individually (sample-wise noise).
 
 We plan to develop an app for you to use in the future.
 
