@@ -4,9 +4,9 @@ title = "Unlearnable Examples: Making Personal Data Unexploitable"
 
 ## We need more control of how our data is used.
 
-The volume of "free" data on the internet has been key to the current success of deep learning. However, it also raises privacy concerns about the unauthorized exploitation of personal data for training commercial models. We believe it's crucial to develop methods to allow individuals to take active actions and prevent their data from any unauthorized exploitations.
+The volume of "free" data on the internet has been critical to the current success of deep learning. However, it also raises privacy concerns about the unauthorized exploitation of personal data for training commercial models. We believe it's crucial to develop methods to allow individuals to take active actions and prevent their data from any unauthorized exploitations.
 
-In this research, we present a type of *error-minimizing (unlearnable) noise* that can make training examples unlearnable to deep learning. *The unlearnable noise can be used as a key by an individual to “lock” their data, so that it can’t easily be used by others for training their machine learning systems. This gives the owner more control about how their data is used.*
+In this research, we present a type of *error-minimizing (unlearnable) noise* that can make training examples unlearnable to deep learning. *The unlearnable noise can be used by an individual to tag their data, so that it can’t easily be used by others for training their machine learning systems. This gives the owner more control about how their data is used.*
 
 
 ---
@@ -15,7 +15,11 @@ In this research, we present a type of *error-minimizing (unlearnable) noise* th
 
 *Unlearnable examples* exploits the above aspect of AI and tricks the model to believe *there is nothing to learn*. Deep Neural Networks (DNNs) trained on *unlearnable examples* will have a performance equivalent to random guessing on normal test examples.
 
-<img src="images/CIFAR-10-fig1.png" alt="drawing" width="500"/>
+<table><tr>
+<td><img src="images/fig1_classwise.jpg" width="375"/></td>
+<td><img src="images/fig1_samplewise.jpg" width="375"/></td>
+</tr></table>
+The unlearnable effectiveness of different types of noise: random, adversarial (error-maximizing) and our proposed error-minimizing noise on CIFAR-10 dataset. The lower the clean test accuracy the more effective of the noise.
 
 
 #### Difference to adversarial examples?
@@ -26,7 +30,8 @@ Before you release your data to the wild, add an imperceptible noise to the data
 
 We plan to develop an app for you to use in the future.
 
-<img src="images/exp_face.png" alt="drawing" width="500"/>
+![](images/exp_face.png)
+<!-- <img src="images/exp_face.png" alt="drawing" width="500"/> -->
 
 ---
 ## Examples on CIFAR-10
