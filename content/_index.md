@@ -33,7 +33,7 @@ Before you release your data to the wild, add an imperceptible noise to the data
 
 We plan to develop an app for you to use in the future.
 
-![](images/exp_face.png)
+![](images/exp_face_authors.png)
 <!-- <img src="images/exp_face.png" alt="drawing" width="500"/> -->
 
 ---
@@ -58,6 +58,10 @@ From left to right: Original Images, Visualization of the Error-Minimizing Noise
 * [James Bailey](https://people.eng.unimelb.edu.au/baileyj/) , Professor, The University of Melbourne
 * [Yisen Wang](https://yisenwang.github.io/) , Assistant Professor, Peking University
 
+![](images/unlearnable_authors.png)
+
+- Top row: original photos;
+- Bottom row: unlearnable photos generated using our technology.
 
 
 ---
