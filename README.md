@@ -54,7 +54,8 @@ python3 perturbation.py --config_path             configs/cifar10               
                         --attack_type             min-min                        \
                         --perturb_type            classwise                      \
                         --universal_train_target  'train_subset'                 \
-                        --universal_stop_error    0.1
+                        --universal_stop_error    0.1                            \
+                        --use_subset
 ```
 ##### Train on unlearnable examples and eval on clean test
 ```console
