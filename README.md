@@ -5,7 +5,7 @@ Code for ICLR2021 Spotlight Paper ["Unlearnable Examples: Making Personal Data U
 ## Quick Start
 ##### Use the QuickStart.ipynb notebook for a quick start.
 In the notebook, you can find the minimal implementation for generating sample-wise unlearnable examples on CIFAR-10.
-Please remove `mlconfig` from `models/__init__.py` if you only using the notebook and copy paste the model to the notebook.
+Please remove `mlconfig` from `models/__init__.py` if you are only using the notebook and copy-paste the model to the notebook.
 
 
 
@@ -24,7 +24,7 @@ python3 perturbation.py --config_path             configs/cifar10               
                         --num_steps               20                             \
                         --step_size               0.8                            \
                         --attack_type             min-min                        \
-                        --perturb_type            samplewse                      \
+                        --perturb_type            samplewise                      \
                         --universal_stop_error    0.01
 ```
 ##### Train on unlearnable examples and eval on clean test
@@ -34,7 +34,7 @@ python3 -u main.py    --version                 resnet18                       \
                       --config_path             configs/cifar10                \
                       --train_data_type         PoisonCIFAR10                  \
                       --poison_rate             1.0                            \
-                      --perturb_type            samplewse                      \
+                      --perturb_type            samplewise                      \
                       --perturb_tensor_filepath path/to/your/experiment/folder/perturbation.pt \
                       --train
 ```
@@ -53,6 +53,7 @@ python3 perturbation.py --config_path             configs/cifar10               
                         --step_size               0.8                            \
                         --attack_type             min-min                        \
                         --perturb_type            classwise                      \
+                        --universal_train_target  'train_subset'                 \
                         --universal_stop_error    0.1
 ```
 ##### Train on unlearnable examples and eval on clean test
