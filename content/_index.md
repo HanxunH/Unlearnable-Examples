@@ -58,11 +58,16 @@ From left to right: Original Images, Visualization of the Error-Minimizing Noise
 * [James Bailey](https://people.eng.unimelb.edu.au/baileyj/) , Professor, The University of Melbourne
 * [Yisen Wang](https://yisenwang.github.io/) , Assistant Professor, Peking University
 
-![](images/unlearnable_authors.png)
+![](images/unlearnable_authors.jpeg)
 
 - Top row: original photos;
 - Bottom row: unlearnable photos generated using our technology.
 
+
+## Media Coverage
+* Pursuit: [Blocking AI to keep your personal data your own](https://pursuit.unimelb.edu.au/articles/blocking-ai-to-keep-your-personal-data-your-own)
+* Gadgets 360: [Worried About Privacy for Your Selfies? These Tools Can Help Spoof Facial Recognition AI](https://gadgets.ndtv.com/science/news/facial-recognition-ai-spoofing-for-selfies-fawkes-lowkey-image-cloaking-adversarial-attacks-2439007)
+* MIT Technology Review: [How to stop AI from recognizing your face in selfies](https://www.technologyreview.com/2021/05/05/1024613/stop-ai-recognizing-your-face-selfies-machine-learning-facial-recognition-clearview/)
 
 ---
 ## Cite Our Work
