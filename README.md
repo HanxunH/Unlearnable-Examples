@@ -18,7 +18,7 @@ Check scripts folder for *.sh for each corresponding experiments.
 python3 perturbation.py --config_path             configs/cifar10                \
                         --exp_name                path/to/your/experiment/folder \
                         --version                 resnet18                       \
-                        --train_data_type         CIFAR-10                       \
+                        --train_data_type         CIFAR10                       \
                         --noise_shape             50000 3 32 32                  \
                         --epsilon                 8                              \
                         --num_steps               20                             \
@@ -46,7 +46,7 @@ python3 -u main.py    --version                 resnet18                       \
 python3 perturbation.py --config_path             configs/cifar10                \
                         --exp_name                path/to/your/experiment/folder \
                         --version                 resnet18                       \
-                        --train_data_type         CIFAR-10                       \
+                        --train_data_type         CIFAR10                       \
                         --noise_shape             10 3 32 32                     \
                         --epsilon                 8                              \
                         --num_steps               1                              \
