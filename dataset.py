@@ -232,7 +232,7 @@ class DatasetGenerator():
             test_dataset = datasets.SVHN(root=test_data_path, split='test',
                                          download=True, transform=test_transform)
         elif test_data_type == 'PoisonSVHN':
-            train_dataset = PoisonSVHN(root=test_data_path, split='test', transform=test_transform,
+            test_dataset = PoisonSVHN(root=test_data_path, split='test', transform=test_transform,
                                        poison_rate=poison_rate, perturb_type=perturb_type,
                                        patch_location=patch_location, seed=seed, img_denoise=img_denoise,
                                        perturb_tensor_filepath=perturb_tensor_filepath,
@@ -811,7 +811,7 @@ class MixUp(Dataset):
             img2, lb2 = self.dataset[rand_index]
             lb2_onehot = onehot(self.num_class, lb2)
 
-            img = img * lam + img2 * (1-img2)
+            img = img * lam + img2 * (1-lam)
             lb_onehot = lb_onehot * lam + lb2_onehot * (1. - lam)
 
         return img, lb_onehot
