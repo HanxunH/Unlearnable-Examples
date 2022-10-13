@@ -53,7 +53,7 @@ From left to right: Original Images, Visualization of the Error-Minimizing Noise
 ---
 ## Researchers
 * [Hanxun Huang](https://hanxunh.github.io/) , PhD student, The University of Melbourne
-* [Xingjun Ma](http://xingjunma.com/) , Lecturer, Deakin University
+* [Xingjun Ma](http://xingjunma.com/) , Associate Professor, Fudan University
 * [Sarah Erfani](https://people.eng.unimelb.edu.au/smonazam/) , Senior Lecturer, The University of Melbourne
 * [James Bailey](https://people.eng.unimelb.edu.au/baileyj/) , Professor, The University of Melbourne
 * [Yisen Wang](https://yisenwang.github.io/) , Assistant Professor, Peking University
