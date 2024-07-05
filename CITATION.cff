@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Huang"
+  given-names: "Hanxun"
+  orcid: "https://orcid.org/0000-0002-2793-6680"
+- family-names: "Ma"
+  given-names: "Xingjun"
+  orcid: "https://orcid.org/0000-0003-2099-4973"
+- family-names: "Erfani"
+  given-names: "Sarah"
+  orcid: "https://orcid.org/0000-0003-0885-0643"
+- family-names: "Bailey"
+  given-names: "James"
+  orcid: "https://orcid.org/0000-0002-3769-3811"
+- family-names: "Wang"
+  given-names: "Yisen"
+title: "Unlearnable Examples: Making Personal Data Unexploitable"
+version: 0.0.1
+date-released: 2021-01-15
+url: "https://github.com/HanxunH/Unlearnable-Examples"
+preferred-citation:
+  type: conference-paper
+  title: "Unlearnable Examples: Making Personal Data Unexploitable"
+  authors:
+    - family-names: "Huang"
+      given-names: "Hanxun"
+      orcid: "https://orcid.org/0000-0002-2793-6680"
+    - family-names: "Ma"
+      given-names: "Xingjun"
+      orcid: "https://orcid.org/0000-0003-2099-4973"
+    - family-names: "Erfani"
+      given-names: "Sarah"
+      orcid: "https://orcid.org/0000-0003-0885-0643"
+    - family-names: "Bailey"
+      given-names: "James"
+      orcid: "https://orcid.org/0000-0002-3769-3811"
+    - family-names: "Wang"
+      given-names: "Yisen"
+  collection-title: "ICLR"
+  year: 2021
